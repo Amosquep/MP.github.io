@@ -1,0 +1,10 @@
+div.example{
+    background-color: lightgray;
+    padding: 20px;
+}
+@media screen and (min-width: 60px; {
+    div.example{
+        font-size: 80px;
+    }
+}
+    

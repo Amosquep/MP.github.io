@@ -1,0 +1,28 @@
+.flex-container{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 1000px;
+}
+.flex-container>div{
+    height: 1000px;
+    width: 100%;
+    border: 5px solid #ffff;
+}
+.flex-container > .tropical {
+    background: url(https://source.unplash.com/A-11N8ItHZo/1000*1000);
+}
+.flex-container > .cold{
+    background: url(https://source.unplash.com/D9873iLktiY/1000*1000);
+}
+.flex-container > .pnw{
+    background: url(https://source.unplash.com/rEoOpo4kUzU/1000*1000);
+}
+.flex-container > .desert{
+    background: url(https://source.unplash.com/N3hafr52Teg/1000*1000);
+}
+@media only sreen and (max-width: 1000px){
+    .flex-container{
+        flex-wrap: wrap;
+    }
+}
